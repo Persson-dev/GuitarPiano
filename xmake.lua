@@ -2,7 +2,7 @@ add_rules("mode.debug", "mode.release")
 
 add_requires("opengl", "glfw >= 3", "glew >= 2")
 
-target("GuitarPianoGui")
+target("GuitarPiano")
     set_kind("binary")
     add_files("src/*.cpp")
 	add_includedirs("include")

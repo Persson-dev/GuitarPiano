@@ -1,5 +1,10 @@
 # GuitarPiano
-GuitarPiano is a french software to learn guitar from piano. It uses [OpenGL](https://www.opengl.org) and [SDL](https://www.libsdl.org).
+GuitarPiano is a french software to learn guitar from piano. 
+It uses : 
+- [OpenGL](https://www.opengl.org) (to draw the instruments)
+- [GLEW](http://http://glew.sourceforge.net) (to load opengl functions)
+- [GLFW](https://www.glfw.org) (to help managing the window)
+- [ImGui](https://github.com/ocornut/imgui) (for the gui)
 
 English translations will be added if really needed. For now, this is just a small project (the code is still a mess).
 
